@@ -9,6 +9,10 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 ul,
 li {
     list-style: none;
@@ -24,10 +28,13 @@ li {
 .container {
     max-width: 1600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -44,12 +51,42 @@ li {
 .logo__text {
     margin-top: 50px;
     margin-left: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-.header__right {
+.header__item {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.header__items {
+    margin-top: 81px;
     display: flex;
 }
 
-.header__list {
+.header__link {
+    margin-right: 71px;
+}
+
+.content {
     display: flex;
+}
+
+.content__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 350px;
+    line-height: 525px;
+    color: white;
+}
+
+.content__img {
+    position: absolute;
 }
