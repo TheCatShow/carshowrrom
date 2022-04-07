@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background: linear-gradient(90deg, #FF0101 30%,#000000 30%);
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__img {
+    margin-left: 74px;
+    margin-top: 46px;
+}
+
+.logo__text {
+    margin-top: 50px;
+    margin-left: 21px;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__list {
+    display: flex;
+}
